@@ -1,6 +1,6 @@
-# a02_expenses
+# a02_tracker
 
-A new Flutter project.
+Create an app that helps students track how they spend their Stipend money with a graphic overview.
 
 ## Getting Started
 
