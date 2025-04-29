@@ -1,0 +1,35 @@
+name: expense_tracker
+description: "Expense Tracker"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  fl_chart: ^0.71.0
+  sqflite: ^2.4.2
+  path: ^1.9.1
+  intl: ^0.20.2
+  timeago: ^3.2.2
+  flutter_launcher_icons: ^0.14.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter_icons:
+  android: true
+  image_path: "assets/icon/app_icon.png"  # Path to your image
+  adaptive_icon_background: "#4e6cfa"  # Optional: change to the desired background color
+  adaptive_icon_foreground: "assets/icon/app_icon.png"  # Same image for foreground
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/
